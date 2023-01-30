@@ -1,0 +1,30 @@
+{
+  "name": "imusic",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --open",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^1.2.2",
+    "lib-flexible": "^0.3.2",
+    "moment": "^2.29.4",
+    "pinia": "^2.0.28",
+    "reset-css": "^5.0.1",
+    "vant": "^4.0.7",
+    "vue": "^3.2.45",
+    "vue-router": "^4.1.6"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "less": "^4.1.3",
+    "typescript": "^4.9.3",
+    "unplugin-vue-components": "^0.22.12",
+    "vite": "^4.0.0",
+    "vue-tsc": "^1.0.11"
+  }
+}
